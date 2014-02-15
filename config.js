@@ -8,7 +8,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'http://BitWhisp.com',
+        url: 'http://localhost',
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
@@ -34,7 +34,11 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
+<<<<<<< HEAD
             host: 'localhost',
+=======
+            host: '0.0.0.0',
+>>>>>>> a14bd9ec8705b6adc1e224205acc038fb30a74ac
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '80'
         }
