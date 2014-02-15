@@ -1,3 +1,3 @@
 [submodule "ghostium"]
-	path = content/themes/ghostium
+	path = ghostium
 	url = git://github.com/oswaldoacauan/ghostium/
