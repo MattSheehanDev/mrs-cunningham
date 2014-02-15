@@ -8,7 +8,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'http://BitWhisp.com',
+        url: 'http://localhost',
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
@@ -34,9 +34,9 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2368'
+            port: '80'
         }
     },
 
@@ -44,7 +44,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://BitWhisp.com',
+        url: 'http://54.213.216.35',
         mail: {},
         database: {
             client: 'sqlite3',
@@ -55,7 +55,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '54.213.216.35',
+            host: 'ec2-54-213-216-35.us-west-2.compute.amazonaws.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '80'
         }
