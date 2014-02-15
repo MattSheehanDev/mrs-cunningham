@@ -23,7 +23,7 @@ config = {
         //          }
         //      }
         //  },
-        // ```
+        //
 
         database: {
             client: 'sqlite3',
@@ -34,11 +34,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-<<<<<<< HEAD
-            host: 'localhost',
-=======
             host: '0.0.0.0',
->>>>>>> a14bd9ec8705b6adc1e224205acc038fb30a74ac
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '80'
         }
