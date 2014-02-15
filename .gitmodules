@@ -1,0 +1,3 @@
+[submodule "ghostium"]
+	path = ghostium
+	url = git://github.com/oswaldoacauan/ghostium/
